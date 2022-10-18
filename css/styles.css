@@ -5,12 +5,20 @@ body {
     background-color: #F5F5F5;
     color:#212121;          
 }
+/*стилізація логотипу*/
+.logo-blue {
+    color: #2196F3;
+}
+.logo-black{
+    color: #000000;
+}
 /*стилізація навігації*/
-ul {list-style: none;
+ul 
+{list-style: none;
 }
-a { text-decoration: none;
+a 
+{ text-decoration: none;
 }
-
 .social-links .link {
     color:#212121;
 }
@@ -19,16 +27,25 @@ a { text-decoration: none;
     color: #2196F3;
 }
 
-.social-links .link:active {
-    color: #2196F3;
-}
-
 .social-links .link:visited {
     color: #2196F3;
 }
+a[href="./portfolio.html"]
+{
+    color: #212121;
+}
+a[href="#"]
+{
+color: #212121;
+}
+.social-links a {
+color: #212121;
+}
 /*електронна адреса і телефон*/
 
-
+.link {
+color: #2196F3;
+}
 a[href="tel:+380961111111"]
 {
     color: #212121;
