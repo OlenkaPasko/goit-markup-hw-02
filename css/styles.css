@@ -42,21 +42,19 @@ ul {
 a {
   text-decoration: none;
 }
-
-.site-nav.header-link.link {
-
-  font-family: 'Roboto';
-  font-style: normal;
+.header-link { 
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-
-  color:var(--title-text-color)
+}
+.header-link.current {
+  color: var(--accent-color)
 }
 
-.site-nav.header-link.link:hover,
-.site-nav.header-link.link:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--accent-color)
 }
 
@@ -66,7 +64,7 @@ a[href="#"] {
 
 /*електронна адреса і телефон*/
 
-.link .current {
+.link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
